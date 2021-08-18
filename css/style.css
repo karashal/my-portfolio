@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+::selection {
+    background: #E7E8F2;
+    color: #000000;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+    background: #171923;
+    color: #FF2D20;
+    text-align: center;
+}
+
+a {
+    color: #FF2D20;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
