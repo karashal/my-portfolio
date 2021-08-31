@@ -1,3 +1,3 @@
-# halcyon
+# my-portfolio
 
-[Halcyon project website](https://karashal.github.io/halcyon/)
+[Click](https://karashal.github.io/my-portfolio/)
