@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Righteous */
+@font-face {
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Righteous');
+}
+
+/* Roboto */
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto');
+}
 
 ::selection {
     background: #E7E8F2;
@@ -6,7 +23,7 @@
 }
 
 body {
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', 'Roboto';
     background: #171923;
     color: #FF2D20;
     text-align: center;
@@ -17,8 +34,18 @@ nav {
     margin-top: 50px;
 }
 
-nav > ul > li > a {
+nav ul li a {
     padding-left: 25px;
+    color: #FF2D20;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+nav ul li a:active {
+    color: #E7E8F2;
 }
 
 ul {
@@ -29,9 +56,4 @@ ul {
 li {
     list-style: none;
     display: inline;
-}
-
-a {
-    color: #FF2D20;
-    text-decoration: none;
 }
